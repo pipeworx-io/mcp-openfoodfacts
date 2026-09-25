@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/openfoodfacts",
   "title": "Openfoodfacts",
-  "description": "Open Food Facts — collaborative food product database",
-  "version": "0.1.0",
+  "description": "Open Food Facts MCP.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/openfoodfacts",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-openfoodfacts",

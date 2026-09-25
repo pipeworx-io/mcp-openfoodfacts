@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-openfoodfacts",
-  "version": "0.1.0",
-  "description": "Open Food Facts — collaborative food product database",
+  "version": "0.1.1",
+  "description": "Open Food Facts MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-openfoodfacts": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "openfoodfacts"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-openfoodfacts"
+    "url": "git+https://github.com/pipeworx-io/mcp-openfoodfacts.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-2f08aeeaf4ed734fbecca21f8a2507875ef51c34c3bf37fe83ac42e3ebef9f10",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
