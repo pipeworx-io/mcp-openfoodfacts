@@ -1,0 +1,109 @@
+[
+  {
+    "name": "product",
+    "description": "Product by barcode.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "barcode": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "barcode"
+      ]
+    }
+  },
+  {
+    "name": "search",
+    "description": "Full-text search.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "page": {
+          "type": "number"
+        },
+        "page_size": {
+          "type": "number"
+        },
+        "sort_by": {
+          "type": "string",
+          "description": "unique_scans_n | product_name | created_t | last_modified_t | nutriscore_score | nova_score"
+        },
+        "fields": {
+          "type": "string",
+          "description": "Comma-sep return fields."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "category",
+    "description": "Products by category.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string"
+        },
+        "page": {
+          "type": "number"
+        },
+        "page_size": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "category"
+      ]
+    }
+  },
+  {
+    "name": "brand",
+    "description": "Products by brand.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "brand": {
+          "type": "string"
+        },
+        "page": {
+          "type": "number"
+        },
+        "page_size": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "brand"
+      ]
+    }
+  },
+  {
+    "name": "country",
+    "description": "Products from a country.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "country": {
+          "type": "string"
+        },
+        "page": {
+          "type": "number"
+        },
+        "page_size": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "country"
+      ]
+    }
+  }
+]
