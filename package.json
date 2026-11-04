@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-openfoodfacts",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Open Food Facts MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "openfoodfacts",
     "gatewaySlug": "openfoodfacts",
-    "sourceHash": "v1-80fae8aa816a670fbf34df7acbf83ffdb8e91d38474cb243390f57d51738be19",
-    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
+    "sourceHash": "v1-c6691b93626490aa7df9f941da8880259ef2eb79e24b867c9906711d4c925a84",
+    "sourceCommit": "243a06a6ca2d3b6075325f3b66a1468d0a2eb603"
   }
 }
